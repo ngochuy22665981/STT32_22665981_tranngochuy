@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuan01</title>
+    <style>
+        *{
+            margin: 0px auto;
+        }
+        body {
+            margin: 0;
+            font-family: Open sans, sans-serif;
+        }
+        header {
+            background-color: #231ebe;
+            color: rgb(34, 232, 12);
+            text-align: center;
+            padding: 1em;
+            height: 100px;
+            width: auto;
+        }
+        nav {
+            background-color: #167186;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            height: 20px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        .main {
+            display: flex;
+            flex-grow: 1;
+            height: 500px;
+            width: 1140px;
+        }
+        aside {
+            width: 40%;
+            background-color: #f4f4f4;
+            padding: 10px;
+        }
+        section {
+            width: 60%;
+            flex-grow: 1;
+            background-color: #eaeaea;
+            padding: 10px;
+        }
+        footer {
+            background-color: #be1e2d;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        section h2{
+            color: #060606;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Trường Đại Học Công Nghiệp TPHCM</h1>
+    </header>
+    <nav>
+        <a href="#">Giới thiệu</a>
+        <a href="#">Đào tạo</a>
+        <a href="#">Tuyển sinh</a>
+    </nav>
+    <div class="container">
+        <div class="main">
+            <aside>
+                <h2>Thanh Bên Trái</h2>
+                <p>Nội dung bên trái.</p>
+            </aside>
+            <section>
+                <h2>Để lại thông tin</h2>
+                <p>Đây là nội dung chính của trang web.</p>
+            </section>
+        </div>
+    </div>
+    <footer>
+        <p>Bản quyền © 2024</p>
+    </footer>
+</body>
+</html>
